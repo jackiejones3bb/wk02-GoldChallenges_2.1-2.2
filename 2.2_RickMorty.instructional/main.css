@@ -1,1 +1,18 @@
 /* STYLE HERE */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+img {
+    border-radius: 20px;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+
+}

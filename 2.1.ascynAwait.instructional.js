@@ -6,3 +6,12 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let challenge = async (id) => {
+    await fetch (`https://swapi.dev/api/people/${id}/`)
+        .then (res => res.json())
+        .then (json => console.log (json))
+    console.log ('this should print last')
+}
+
+challenge(3);
